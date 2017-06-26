@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--deben cambiarse -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Inicio"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:orderInCategory="200"
+        android:title="Cerrar Sesion"
+        >
+    </item>
+
+</menu>
